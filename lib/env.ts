@@ -23,3 +23,5 @@ export const env = createEnv({
     DATABASE_URL: process.env.DATABASE_URL,
   },
 });
+
+console.log(env);
