@@ -10,4 +10,4 @@ export function cn(...inputs: ClassValue[]) {
 
 export const nanoid = customAlphabet("abcdefghijklmnopqrstuvwxyz0123456789");
 
-export const uuid = () => nanoid();
+export const uuid = () => uuidv7();
